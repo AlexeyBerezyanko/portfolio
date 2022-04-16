@@ -1,0 +1,30 @@
+include ../mixins/work
+
+section.main 
+    .container 
+        h2.main__title Works 
+        .works
+            +work({
+                link: 'https://alexeyberezyanko.github.io/dz_1alexey/',
+                img: "./assets/imgs/icecream.png",
+                tech: 'Techs: HTML, CSS',
+                time: 'Time: 12 hours'
+            })
+            +work({
+                link: 'https://alexeyberezyanko.github.io/dz2-alexeybem/',
+                img: "./assets/imgs/rayal-park.png",
+                tech: 'Techs: HTML, CSS',
+                time: 'Time: 14 hours'
+            })
+            +work({
+                link: 'https://alexeyberezyanko.github.io/dz3_alexeyb/build/index.html',
+                img: "./assets/imgs/fruits.png",
+                tech: 'Techs: HTML, CSS, JS',
+                time: 'Time: 7 hours'
+            })
+            +work({
+                link: 'https://alexeyberezyanko.github.io/projeckt_diplome/build/index.html',
+                img: "./assets/imgs/travel.png",
+                tech: 'Techs: HTML, CSS, JS',
+                time: 'Time: 17 hours'
+            })
